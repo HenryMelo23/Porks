@@ -1,0 +1,556 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family:'Nerko One' ;
+    
+}
+
+nav{
+    background: black;
+    height: 50px;
+    width: 100%;
+    box-shadow: 0px 1px 10px rgb(255, 255, 255);
+    z-index: 2;
+    position: fixed;
+}
+
+#Logo-img{
+    width: 3.8vw;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 50px;
+    margin: 0 8px;
+}
+
+nav ul li a{
+    color: aliceblue;
+    font-size: 16px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+a.active, a:hover{
+    background: rgb(29, 28, 28);
+    animation: 2s Buttom-anima infinite;
+}
+
+li:hover{
+    transform: scale(0.90);
+    
+}
+
+
+
+/* ---------------------------------------------------Bloco de Animações----------------------------------------------------------------------*/
+
+
+
+
+@keyframes Buttom-anima {
+
+    0%{
+        box-shadow: 0px 2px 10px yellow;
+    }
+
+    50%{
+        box-shadow: 0px 1px 5px red;
+    }
+    
+    100%{
+        box-shadow: 0px 2px 10px white;
+    }
+}
+
+@keyframes tela-anima {
+
+    0%{
+        box-shadow: 0px 2px 12px rgb(228, 162, 6);
+    }
+
+    50%{
+        box-shadow: 0px 1px 8px red;
+    }
+    
+    100%{
+        box-shadow: 0px 2px 12px rgb(239, 104, 0);
+    }
+}
+
+@keyframes tela-anima {
+
+    0%{
+        box-shadow: 0px 2px 12px rgb(228, 162, 6);
+    }
+
+    50%{
+        box-shadow: 0px 1px 8px red;
+    }
+    
+    100%{
+        box-shadow: 0px 2px 12px rgb(239, 104, 0);
+    }
+}
+
+
+
+/*--------------------------------------------------------------Desing lateral-------------------------------------------------------------------------------------------------*/
+
+
+
+.led-left{
+    background: red;
+    width: 5px;
+    height: 30px;
+    position: absolute;
+    top: 8vh;
+    left: 99.5vw;
+    transform: rotate(20deg);
+}
+
+.led-left2{
+    background: red;
+    width: 5px;
+    height: 30px;
+    position: absolute;
+    top: 12vh;
+    left: 99.5vw;
+    transform: rotate(-20deg);
+}
+.led-left3{
+    background: red;
+    width: 5px;
+    height: 30px;
+    position: absolute;
+    top: 15vh;
+    left: 99.5vw;
+    transform: rotate(20deg);
+}
+.led-left4{
+    background: red;
+    width: 5px;
+    height: 30px;
+    position: absolute;
+    top: 19vh;
+    left: 99.5vw;
+    transform: rotate(-20deg);
+}
+.led-left5{
+    background: red;
+    width: 5px;
+    height: 30px;
+    position: absolute;
+    top: 22vh;
+    left: 99.5vw;
+    transform: rotate(20deg);
+}
+.led-left6{
+    background: red;
+    width: 5px;
+    height: 30px;
+    position: absolute;
+    top: 26vh;
+    left: 99.5vw;
+    transform: rotate(-20deg);
+}
+.led-left7{
+    background: red;
+    width: 5px;
+    height: 30px;
+    position: absolute;
+    top: 29vh;
+    left: 99.5vw;
+    transform: rotate(20deg);
+}
+.led-left8{
+    background: red;
+    width: 5px;
+    height: 30px;
+    position: absolute;
+    top: 33vh;
+    left: 99.5vw;
+    transform: rotate(-20deg);
+}
+.led-left9{
+    background: red;
+    width: 5px;
+    height: 30px;
+    position: absolute;
+    top: 36vh;
+    left: 99.5vw;
+    transform: rotate(20deg);
+}
+.led-left10{
+    background: red;
+    width: 5px;
+    height: 30px;
+    position: absolute;
+    top: 40vh;
+    left: 99.5vw;
+    transform: rotate(-20deg);
+}
+.led-left11{
+    background: red;
+    width: 5px;
+    height: 30px;
+    position: absolute;
+    top: 43vh;
+    left: 99.5vw;
+    transform: rotate(20deg);
+}
+.led-left12{
+    background: red;
+    width: 5px;
+    height: 30px;
+    position: absolute;
+    top: 47vh;
+    left: 99.5vw;
+    transform: rotate(-20deg);
+}
+.led-left13{
+    background: red;
+    width: 5px;
+    height: 30px;
+    position: absolute;
+    top: 50vh;
+    left: 99.5vw;
+    transform: rotate(20deg);
+}
+.led-left14{
+    background: red;
+    width: 5px;
+    height: 30px;
+    position: absolute;
+    top: 50vh;
+    left: 99.5vw;
+    transform: rotate(20deg);
+}
+.led-left15{
+    background: red;
+    width: 5px;
+    height: 30px;
+    position: absolute;
+    top: 54vh;
+    left: 99.5vw;
+    transform: rotate(-20deg);
+}
+.led-left16{
+    background: red;
+    width: 5px;
+    height: 30px;
+    position: absolute;
+    top: 58vh;
+    left: 99.5vw;
+    transform: rotate(20deg);
+}
+.led-left17{
+    background: red;
+    width: 5px;
+    height: 30px;
+    position: absolute;
+    top: 62vh;
+    left: 99.5vw;
+    transform: rotate(-20deg);
+}
+.led-left18{
+    background: red;
+    width: 5px;
+    height: 30px;
+    position: absolute;
+    top: 66vh;
+    left: 99.5vw;
+    transform: rotate(20deg);
+}
+.led-left19{
+    background: red;
+    width: 5px;
+    height: 30px;
+    position: absolute;
+    top: 70vh;
+    left: 99.5vw;
+    transform: rotate(-20deg);
+}
+.led-left20{
+    background: red;
+    width: 5px;
+    height: 30px;
+    position: absolute;
+    top: 74vh;
+    left: 99.5vw;
+    transform: rotate(20deg);
+}
+.led-left21{
+    background: red;
+    width: 5px;
+    height: 30px;
+    position: absolute;
+    top: 78vh;
+    left: 99.5vw;
+    transform: rotate(-20deg);
+}
+.led-left22{
+    background: red;
+    width: 5px;
+    height: 30px;
+    position: absolute;
+    top: 82vh;
+    left: 99.5vw;
+    transform: rotate(20deg);
+}
+.led-left23{
+    background: red;
+    width: 5px;
+    height: 30px;
+    position: absolute;
+    top: 86vh;
+    left: 99.5vw;
+    transform: rotate(-20deg);
+}
+.led-left24{
+    background: red;
+    width: 5px;
+    height: 30px;
+    position: absolute;
+    top: 90vh;
+    left: 99.5vw;
+    transform: rotate(20deg);
+}
+.led-left25{
+    background: red;
+    width: 5px;
+    height: 30px;
+    position: absolute;
+    top: 94vh;
+    left: 99.5vw;
+    transform: rotate(-20deg);
+}
+
+
+.led-right{
+    background: rgb(212, 255, 0);
+    width: 5px;
+    height: 30px;
+    position: absolute;
+    top: 8vh;
+    left: 1px;
+    transform: rotate(153deg);
+}
+.led-right2{
+    background: rgb(212, 255, 0);
+    width: 5px;
+    height: 30px;
+    position: absolute;
+    top: 12vh;
+    left: 1px;
+    transform: rotate(-153deg);
+}
+
+
+
+
+/*--------------------------------------------------------------Botões------------------------------------------------------------------------*/
+
+
+
+
+.checkbtn{
+    font-size: 15px;
+    color: white;
+    float: right;
+    line-height: 50px;
+    margin-right: 20px;
+    cursor: pointer;
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+
+/*----------------------------------------------------------------Responsivo-----------------------------------------------------------------------------------------------------*/
+
+
+@media (max-width:900px){
+
+    #Logo-img{
+        width: 3rem;
+    }
+    nav ul li a{
+        font-size: 16px;
+
+    }
+    
+}
+
+@media (max-width:858px) {
+
+    .checkbtn{
+        display: block;
+    }
+
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: linear-gradient(black,rgb(90, 88, 88),white);
+        top: 50px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    
+    nav ul li{
+        display: block;
+        margin: 30px 0;
+        line-height: 30px;
+    }
+
+    li{
+        padding: 15px;
+        
+    }
+    li:hover{
+        background: rgb(0, 0, 0);
+        
+    }
+
+    a:active, a:hover{
+        animation: none;
+    }
+
+    nav ul li a {
+        font-size: 13px;
+    }
+    #check:checked ~ ul {
+        left: 0;
+
+    }
+
+}
+
+
+/*-----------------------------------------------------------------------------Slides--------------------------------------------------------------------------------------------*/
+
+
+.content{
+    height: 520px;
+    width: 935px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: 5s tela-anima infinite;
+    
+
+}
+
+.navegar{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+}
+
+.bar{
+    width: 70px;
+    height: 17px;
+    border: 2px solid rgb(0, 0, 0);
+    margin: 6px;
+    border-radius:  5px;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+.bar:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+input{
+    display: none;
+}
+
+.slides {
+    display: flex;
+    width: 500%;
+    height: 100%;
+}
+
+.slide{
+    width: 20%;
+    transition: .6s;
+}
+
+.slide img{
+    width: 100%;
+    height: 100%;
+}
+
+#slide1:checked ~ .s1 {
+    margin-left: 0;
+}
+
+#slide2:checked ~ .s1 {
+    margin-left: -20%;
+}
+
+#slide3:checked ~ .s1 {
+    margin-left: -40% ;
+}
+
+#slide4:checked ~ .s1 {
+    margin-left: -60%;
+}
+
+#slide5:checked ~ .s1 {
+    margin-left: -80%;
+}
+
+
+
+/*-----------------------------------------------------------------------------Tamanhos de Imagens---------------------------------------------------------------------------------*/
+
+
+
+
+/*--------------------------------------------------------------------------------Paginas config-----------------------------------------------------------------------------------*/
+
+
+.Page-1{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: black;
+}
+
+.Page-2{
+    width: 100%;
+    height: 93vh;
+    background: yellow;
+    
+}
